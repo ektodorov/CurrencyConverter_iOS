@@ -17,8 +17,9 @@ struct MainView: View {
         NavigationStack {
             VStack(alignment: HorizontalAlignment.center, spacing: 0.0, content: {
                 TextField("Ammount", text: $viewModel.ammount, onCommit: {
-                    //UIApplication.shared.sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)
+                    
                 })
+                .keyboardType(.numberPad)
                 .textFieldStyle(RoundedBorderTextFieldStyle.roundedBorder)
                 .padding(Edge.Set.bottom, 20)
                 

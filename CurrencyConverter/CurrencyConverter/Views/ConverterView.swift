@@ -46,21 +46,24 @@ struct ConverterView: View {
                 
                 HStack(alignment: VerticalAlignment.center, spacing: 0.0) {
                     TextField("Ammount", text: $ammountFrom, onCommit: {
-                        //UIApplication.shared.sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)
+                        
                     })
+                    .keyboardType(.numberPad)
                     .textFieldStyle(RoundedBorderTextFieldStyle.roundedBorder)
                     .padding()
                     
                     Text("=")
                     
                     TextField("Ammount", text: $ammountTo, onCommit: {
-                        //UIApplication.shared.sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)
+                        
                     })
+                    .keyboardType(.numberPad)
                     .textFieldStyle(RoundedBorderTextFieldStyle.roundedBorder)
                     .padding()
                 }
                 
                 Button {
+                    UIApplication.shared.sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)
                     if(isForward) {
                         ammountTo = String(viewModel.convert(ammount: ammountFrom, reverse: false))
                     } else {
@@ -80,6 +83,7 @@ struct ConverterView: View {
                 
                 Button {
                     self.calculateConversions()
+                    UIApplication.shared.sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)
                 } label: {
                     if(viewModel.allConversions.isEmpty) {
                         Text("Show All Currencies")
