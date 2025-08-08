@@ -12,6 +12,9 @@ Arrow button (left arrow, right arrow) - change the direction of conversion.
 Convert button - perform the conversion according to the selected direction presented in the Arrow button.
 Show all currencies button - shows a list with all the currencies conversion of the selected currency.
 
+#### Video:</br>
+<a href="https://www.youtube.com/shorts/dS2fl6ZELwY">Video 1<a/></br>
+
 #### Application screenshot:</br>
 <img src="screenshot1.png"  alt="Application screenshot"  width="118"  height="255">
 <img src="screenshot2.png"  alt="Application screenshot"  width="118"  height="255">
