@@ -2,17 +2,17 @@
 Currency converter application for iOS
 
 #### 1. Page 1 - Home page
-Input field - enter the amount which will be converted.
-Two Pickers - select currencies to convert between.
-Convert button - leads to Page 2. Disabled if there is no amount in the field.
+Input field - enter the amount which will be converted.</br>
+Two Pickers - select currencies to convert between.</br>
+Convert button - leads to Page 2. Disabled if there is no amount in the field.</br>
 
 #### 2. Page 2 - Converter page
-Two - with the selected currencies from Page 1.
-Arrow button (left arrow, right arrow) - change the direction of conversion.
-Convert button - perform the conversion according to the selected direction presented in the Arrow button.
-Show all currencies button - shows a list with all the currencies conversion of the selected currency.
+Two labels - with the selected currencies from Page 1.</br>
+Arrow button (left arrow, right arrow) - change the direction of conversion.</br>
+Convert button - perform the conversion according to the selected direction presented in the Arrow button.</br>
+Show all currencies button - shows a list with all the currencies conversion of the selected currency.</br>
 
-#### Video:</br>
+#### Video:
 <a href="https://www.youtube.com/shorts/dS2fl6ZELwY">Video 1<a/></br>
 
 #### Application screenshot:</br>
