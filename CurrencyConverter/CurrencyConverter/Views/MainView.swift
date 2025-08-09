@@ -61,6 +61,7 @@ struct MainView: View {
             })
             .frame(maxWidth: CGFloat.infinity, maxHeight: CGFloat.infinity)
             .padding()
+            .background(Color(red: 215.0/255.0, green: 241.0/255.0, blue: 252.0/255.0))
         }
         .task {
             let result: Data? = ConstantsConverter.decrypt(input: Data(base64Encoded: CurrencyApi.apiKeyArray.joined())!)

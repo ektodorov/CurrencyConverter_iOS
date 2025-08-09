@@ -107,6 +107,7 @@ struct ConverterView: View {
                 Spacer()
             })
         }
+        .background(Color(red: 215.0/255.0, green: 241.0/255.0, blue: 252.0/255.0))
         .task {
             ammountFrom = viewModel.ammount
             let from = viewModel.listSupportedCurrencies[viewModel.convertFromIndex].currencyAbbreviation
