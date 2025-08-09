@@ -13,7 +13,7 @@ Convert button - perform the conversion according to the selected direction pres
 Show all currencies button - shows a list with all the currencies conversion of the selected currency.</br>
 
 #### Video:
-<a href="https://youtube.com/shorts/NLKq786AOpA?feature=share">Currency Converter Application Video<a/></br>
+<a href="https://youtube.com/shorts/pjsb2q8GtYI?feature=share">Currency Converter Application Video<a/></br>
 
 #### Application screenshot:</br>
 <img src="screenshot1.png"  alt="Application screenshot"  width="118"  height="255">
