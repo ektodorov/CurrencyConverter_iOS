@@ -12,6 +12,9 @@ Arrow button (left arrow, right arrow) - change the direction of conversion.</br
 Convert button - perform the conversion according to the selected direction presented in the Arrow button.</br>
 Show all currencies button - shows a list with all the currencies conversion of the selected currency.</br>
 
+</br>
+The network API is implemented with completion callbacks and with structured concurrency.</br>
+
 #### Video:
 <a href="https://youtube.com/shorts/pjsb2q8GtYI?feature=share">Currency Converter Application Video<a/></br>
 
